@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>页面登录</title>
+</head>
+   <link rel="stylesheet" type="text/css" href="./css/index.css" />
+<body >
+
+	<div id="login"> 
+			<h1>用户登录</h1>
+	
+	<form action="LoginServlet" method="post" name="form" onsubmit="return beforesubmit(form)">
+		
+		<span>学号：</span>
+		<input type="text" name="sno"> <a href="register.html">立即注册</a>
+				<br>
+				<br>
+       <span> 密码：</span>
+       <input type="password" name="password"> <a href="">找回密码</a>
+				<br>
+				<br>
+				<input type="submit" value="登录">
+				<input type="reset" name="重置">
+	</form>
+
+	</div>
+	<script type="text/javascript">
+		function beforesubmit(form){
+			if (form.uname.value.length == 0 ) {
+				alert("账号不能为空！");
+			    form.uname.focus();
+			    return false;
+			    }
+			    if (form.upwd.value.length == 0) {
+			    	alert("请输入密码！");
+			    	form.upwd.focus();
+			    	return false;
+			    }
+			    return true;
+		}
+
+
+	</script>
+</body>
+</html>

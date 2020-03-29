@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h3{
+    color: white;
+}
+#Navigation{
+    width: 100%;
+    height: 40px;
+    background-color: darkturquoise;
+    position: absolute;
+}
+
+.menu{
+    width: 30px;
+    height: 30px;
+   
+    position: relative;
+   
+}
+
+.menu_ul{
+    width: 100px;
+    
+    left: 20px;
+    top: 5px;
+    
+    position: relative;
+   
+}
+.menu_ul li{
+    list-style: none;
+   
+    
+}
+
+.erji{
+    background-color: darkturquoise;
+}
+.erji li{
+    height :30px;
+}
+
+li:hover{
+    background-color: aliceblue;
+    
+}
+h3:hover{
+    color: darkturquoise;
+}
+#daohang{
+    float: left;
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 500px;
+    background-color: darkturquoise;
+}
+#daohang li{
+    margin-left: 10px;
+    margin-top: 5px;
+    list-style: none;
+}
+table {
+    color: black;
+}
+#table{
+    float: left;
+    left: 100px;
+    position: relative;
+    top: 100px;
+    rules:none;
+}
+table {
+    font-size: 20px;
+    
+} 
+table td{
+    text-align: center;
+    border-bottom:solid 1px #c0c0c0;
+    border-right:solid 1px #c0c0c0;
+}

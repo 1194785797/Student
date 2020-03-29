@@ -1,0 +1,35 @@
+body{
+background: url("../images/1.jpg") no-repeat ;
+background-size: 100% 250%;
+
+}
+span{
+	width: 100px;
+	display: inline-block;
+}
+a{
+	color: #000;
+}
+a.hover{
+	color: red;
+}
+#login{
+	widows: 500px;
+	height: 200px;
+	text-align: center;
+	margin:0px auto;
+	padding-top: 50px;
+
+}
+#register{
+
+	widows: 500px;
+	height: 200px;
+	text-align: center;
+	margin:0px auto;
+	padding-top: 50px;
+}
+.button{
+	margin-right: 20px;
+
+}
